@@ -11,6 +11,6 @@ package Service;
 public interface crud {
     void addCustomer();
     void viewCustomers();
-    void updateCustomer();  // Menambahkan metode update
+    void updateCustomer();  
     void deleteCustomer();
 }
