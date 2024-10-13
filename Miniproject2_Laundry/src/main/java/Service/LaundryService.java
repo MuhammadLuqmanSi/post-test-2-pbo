@@ -13,15 +13,15 @@ import java.util.Scanner;
 public abstract class LaundryService implements crud {
     protected final ArrayList<Customer> customers = new ArrayList<>();
 
-    // Abstract method for adding a customer
+    
     @Override
     public abstract void addCustomer();
 
-    // Abstract method for updating a customer
+   
     @Override
-    public abstract void updateCustomer();  // Menambahkan metode abstrak update
+    public abstract void updateCustomer();  
 
-    // Final method to display customers
+    
     @Override
     public final void viewCustomers() {
         if (customers.isEmpty()) {
@@ -51,7 +51,7 @@ public abstract class LaundryService implements crud {
             id = sc.nextInt();
         } catch (Exception e) {
             System.out.println("Invalid input. Please enter a valid customer ID.");
-            sc.nextLine(); // Clear buffer
+            sc.nextLine(); 
             return;
         }
 
