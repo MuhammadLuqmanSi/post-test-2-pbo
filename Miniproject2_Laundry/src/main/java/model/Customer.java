@@ -11,7 +11,7 @@ package model;
 public final class Customer {
     private final String name;
     private final double weight;
-    private final String type;  // "Express" or "Regular"
+    private final String type;  
 
     public Customer(String name, double weight, String type) {
         this.name = name;
